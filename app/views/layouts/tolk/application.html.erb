@@ -5,8 +5,13 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>Tolk</title>
 
-  <%= javascript_include_tag "tolk/application" %>
-  <%= stylesheet_link_tag "tolk/application" %>
+  <%= javascript_include_tag "tolk/prototype" %>
+  <%= javascript_include_tag "tolk/controls" %>
+  <%= javascript_include_tag "tolk/dragdrop" %>
+  <%= javascript_include_tag "tolk/effects" %>
+
+  <%= stylesheet_link_tag "tolk/reset" %>
+  <%= stylesheet_link_tag "tolk/screen" %>
   <%= yield :head %>
 </head>
 
