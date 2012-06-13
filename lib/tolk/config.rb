@@ -30,6 +30,7 @@ module Tolk
           'fi'    => 'Finnish',
           'fr'    => 'French',
           'he'    => 'Hebrew',
+          'hi'    => 'Hindi',
           'hr'    => 'Croatian',
           'hu'    => 'Hungarian',
           'id'    => 'Indonesian',
